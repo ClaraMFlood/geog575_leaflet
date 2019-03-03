@@ -1,0 +1,341 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "ParkName": "Great Smoky Mountains National Park",
+        "Visitors_2010": 9463538,
+        "Visitors_2011": 9008830,
+        "Visitors_2012": 9685829,
+        "Visitors_2013": 9354695,
+        "Visitors_2014": 10099276,
+        "Visitors_2015": 10712674,
+        "Visitors_2016": 11312786,
+        "Visitors_2017": 11338893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.4895,
+          35.6118
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ParkName": "Grand Canyon National Park",
+        "Visitors_2010": 4388386,
+        "Visitors_2011": 4298178,
+        "Visitors_2012": 4421352,
+        "Visitors_2013": 4564840,
+        "Visitors_2014": 4756771,
+        "Visitors_2015": 5520736,
+        "Visitors_2016": 5969811,
+        "Visitors_2017": 6254238
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.113,
+          36.107
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ParkName": "Zion National Park",
+        "Visitors_2010": 2665972,
+        "Visitors_2011": 2825505,
+        "Visitors_2012": 2973607,
+        "Visitors_2013": 2807387,
+        "Visitors_2014": 3189696,
+        "Visitors_2015": 3648846,
+        "Visitors_2016": 4295127,
+        "Visitors_2017": 4504812
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.0263,
+          37.2982
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ParkName": "Rocky Mountain National Park",
+        "Visitors_2010": 2955821,
+        "Visitors_2011": 3176941,
+        "Visitors_2012": 3229617,
+        "Visitors_2013": 2991141,
+        "Visitors_2014": 3434751,
+        "Visitors_2015": 4155916,
+        "Visitors_2016": 4517585,
+        "Visitors_2017": 4437215
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.6836,
+          40.3428
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ParkName": "Yosemite National Park",
+        "Visitors_2010": 3901408,
+        "Visitors_2011": 3951393,
+        "Visitors_2012": 3853404,
+        "Visitors_2013": 3691191,
+        "Visitors_2014": 3882642,
+        "Visitors_2015": 4150217,
+        "Visitors_2016": 5028868,
+        "Visitors_2017": 4336890
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.5383,
+          37.8651
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ParkName": "Yellowstone National Park",
+        "Visitors_2010": 3640185,
+        "Visitors_2011": 3394326,
+        "Visitors_2012": 3447729,
+        "Visitors_2013": 3188030,
+        "Visitors_2014": 3513484,
+        "Visitors_2015": 4097710,
+        "Visitors_2016": 4257177,
+        "Visitors_2017": 4116524
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.5885,
+          44.428
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ParkName": "Acadia National Park",
+        "Visitors_2010": 2504208,
+        "Visitors_2011": 2374645,
+        "Visitors_2012": 2431052,
+        "Visitors_2013": 2254922,
+        "Visitors_2014": 2563129,
+        "Visitors_2015": 2811184,
+        "Visitors_2016": 3303393,
+        "Visitors_2017": 3509271
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.2733,
+          44.3386
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ParkName": "Olympic National Park",
+        "Visitors_2010": 2844563,
+        "Visitors_2011": 2966502,
+        "Visitors_2012": 2824908,
+        "Visitors_2013": 3085340,
+        "Visitors_2014": 3243872,
+        "Visitors_2015": 3263761,
+        "Visitors_2016": 3390221,
+        "Visitors_2017": 3401996
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.6044,
+          47.8021
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ParkName": "Grand Teton National Park",
+        "Visitors_2010": 2669374,
+        "Visitors_2011": 2587437,
+        "Visitors_2012": 2705256,
+        "Visitors_2013": 2688794,
+        "Visitors_2014": 2791392,
+        "Visitors_2015": 3149921,
+        "Visitors_2016": 3270076,
+        "Visitors_2017": 3317000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.6818,
+          43.7904
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ParkName": "Glacier National Park",
+        "Visitors_2010": 2200048,
+        "Visitors_2011": 1853564,
+        "Visitors_2012": 2162035,
+        "Visitors_2013": 2190374,
+        "Visitors_2014": 2338528,
+        "Visitors_2015": 2366056,
+        "Visitors_2016": 2946681,
+        "Visitors_2017": 3305512
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.787,
+          48.7596
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ParkName": "Joshua Tree National Park",
+        "Visitors_2010": 1434976,
+        "Visitors_2011": 1396237,
+        "Visitors_2012": 1396117,
+        "Visitors_2013": 1383340,
+        "Visitors_2014": 1589904,
+        "Visitors_2015": 2025756,
+        "Visitors_2016": 2505286,
+        "Visitors_2017": 2853619
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.901,
+          33.8734
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ParkName": "Cuyahoga County National Park",
+        "Visitors_2010": 2492670,
+        "Visitors_2011": 2161185,
+        "Visitors_2012": 2299722,
+        "Visitors_2013": 2103010,
+        "Visitors_2014": 2189849,
+        "Visitors_2015": 2284612,
+        "Visitors_2016": 2423390,
+        "Visitors_2017": 2226879
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.5678,
+          41.2808
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ParkName": "Bryce Canyon National Park",
+        "Visitors_2010": 1285492,
+        "Visitors_2011": 1296000,
+        "Visitors_2012": 1385352,
+        "Visitors_2013": 1311875,
+        "Visitors_2014": 1435741,
+        "Visitors_2015": 1745804,
+        "Visitors_2016": 2365110,
+        "Visitors_2017": 2571684
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.1871,
+          37.593
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ParkName": "Arches National Park",
+        "Visitors_2010": 1014405,
+        "Visitors_2011": 1040758,
+        "Visitors_2012": 1070577,
+        "Visitors_2013": 1082866,
+        "Visitors_2014": 1284767,
+        "Visitors_2015": 1399247,
+        "Visitors_2016": 1585718,
+        "Visitors_2017": 1539028
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.5925,
+          38.7331
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ParkName": "Shenandoah National Park",
+        "Visitors_2010": 1253386,
+        "Visitors_2011": 1209883,
+        "Visitors_2012": 1210200,
+        "Visitors_2013": 1136505,
+        "Visitors_2014": 1255321,
+        "Visitors_2015": 1321873,
+        "Visitors_2016": 1437341,
+        "Visitors_2017": 1458874
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.6796,
+          38.2928
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ParkName": "Death Valley National Park",
+        "Visitors_2010": 984775,
+        "Visitors_2011": 946867,
+        "Visitors_2012": 984568,
+        "Visitors_2013": 951972,
+        "Visitors_2014": 1101312,
+        "Visitors_2015": 1154843,
+        "Visitors_2016": 1296283,
+        "Visitors_2017": 1294827
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.9325,
+          36.5323
+        ]
+      }
+    }
+  ]
+}

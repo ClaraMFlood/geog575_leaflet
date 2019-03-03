@@ -1,0 +1,239 @@
+
+/* Map */
+body,html {
+  margin:0;
+  padding:0;
+    background: #a9b7ac;
+}
+
+.container-fluid {
+    margin: 0px;
+    padding: 0px;
+}
+
+.row {
+    margin: 0px;
+    padding: 0px;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+#map {
+    height: 100vh;
+    width: 100%;
+    display: inline-block;
+    float: right;
+    min-width: 200px;
+}
+
+.my-sidebar {
+    -ms-flex: 0 0 300px;
+    flex: 0 0 300px;
+    background-color: #a9b7ac; 
+   
+}
+
+#title {
+    height: 20vh;
+    vertical-align: top;
+    text-align: center;
+    
+    background-color: #a9b7ac;
+}
+
+#title img {
+  width: 100%;
+  height: 100%;
+}
+
+
+
+/* Filter menu format */
+.menu-ui {
+    width: 100%;
+    height: 40vh;
+    position: relative;
+    display: inline-block;
+    min-height: 200px;
+    background-image: url(/GEOG575/img/pinetreepyramid.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center; 
+}
+
+.menu-ui a {
+    
+    position: absolute;
+    color:#404040;
+    display:block;
+    margin:0;
+    padding:4px;
+    text-decoration:none;
+    text-align:center;
+    background-color: #4e4347;
+    color: gold;
+    font-size: 0.8em;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+
+.menu-ui a:first-child {
+    top: 23%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.menu-ui a.secondlink {
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.menu-ui a.thirdlink {
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.menu-ui a:last-child {
+    top: 78%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.menu-ui a:hover {
+    color:#ffffff;
+}
+
+.menu-ui a.active,
+.menu-ui a.active:hover {
+    color:#FFF;
+}
+
+
+/* Info Panel */
+#panel {
+    width: 100%;
+    height: 20vh;
+    padding-right:1%;
+    padding-top: 5vh;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 0.8em;
+    font-family: "Josefin Sans", sans-serif;
+    line-height: 1.2em;
+    
+    background-color: #a9b7ac;
+    
+}
+
+#sliderholder {
+    text-align: center;
+    background-color: #a9b7ac;
+    height: 6vh;
+    min-height: 30px;
+}
+
+#slider {
+    width: 80%;
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    text-align: center;
+    font-size: 1vw;
+    font-family: "Josefin Sans", sans-serif;
+    
+    padding-bottom: 1%;
+    padding-top: 1%;
+    background-color: #a9b7ac;
+     
+    
+}
+
+.range-slider {
+    width: 60%;
+    cursor: pointer;
+}
+
+
+#forward {
+    float: right;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+#reverse {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+
+
+/* size of symbol legend must be changed here for the background color, but also in main.js under circle-class="legend-circle" under width/height*/
+.legend-control-container {
+    height: 150px;
+    width: 194px;
+    padding-top: 5px;
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+    background-color: ;
+    background-color: rgba(193, 193, 193, 0.7);
+    
+}
+
+#legendcont {
+    text-align: center;
+    height: 10vh;
+}
+
+.baselegend {
+    width: 50%;
+    float: left;
+    padding-top: 3vh;
+    font-size: 0.8em;
+    font-family: "Josefin Sans", sans-serif;
+    text-align: left;
+    background-color: #a9b7ac;
+    padding-left: 10%;
+    padding-right: 5%;
+    
+}
+
+
+.baselegend2 {
+    width: 50%;
+    float: right;
+    padding-top: 3vh;
+    font-size: 0.8em;
+    font-family: "Josefin Sans", sans-serif;
+    text-align: right;
+    background-color: #a9b7ac;
+    padding-left: 5%;
+    padding-right: 10%;
+    
+}
+/*if you want to change default popup
+.leaflet-popup-content-wrapper {
+    background-color: black;
+}
+*/
+
+
