@@ -49,19 +49,40 @@ body,html {
 }
 
 
+#container {
+  width: 100%;
+  height: 40vh;
+  position: relative;
+  min-height: 200px;
+}
+
+.menu-ui, #infoi {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#infoi {
+    z-index: 10;
+    text-align: center;
+    min-height: 200px;
+}
+
+#infoi img {
+    width: 100%;
+    height: 100%;
+}
 
 /* Filter menu format */
 .menu-ui {
-    width: 100%;
-    height: 40vh;
-    position: relative;
     display: inline-block;
     min-height: 200px;
-    background-image: url(/img/pinetreepyramid.svg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-position: center; 
+    z-index: 11;
 }
+
+
 
 .menu-ui a {
     
@@ -121,12 +142,13 @@ body,html {
 }
 
 
+
 /* Info Panel */
 #panel {
     width: 100%;
-    height: 20vh;
+    height: 17vh;
     padding-right:1%;
-    padding-top: 5vh;
+    padding-top: 4vh;
     display: inline-block;
     vertical-align: middle;
     text-align: center;
@@ -194,22 +216,21 @@ body,html {
     padding-top: 5px;
     text-align: center;
     font-family: "Josefin Sans", sans-serif;
-    background-color: ;
     background-color: rgba(193, 193, 193, 0.7);
     
 }
 
 #legendcont {
     text-align: center;
-    height: 10vh;
+    height: 15vh;
+    font-size: 0.8em;
+    font-family: "Josefin Sans", sans-serif;
 }
 
 .baselegend {
     width: 50%;
     float: left;
     padding-top: 3vh;
-    font-size: 0.8em;
-    font-family: "Josefin Sans", sans-serif;
     text-align: left;
     background-color: #a9b7ac;
     padding-left: 10%;
@@ -222,8 +243,6 @@ body,html {
     width: 50%;
     float: right;
     padding-top: 3vh;
-    font-size: 0.8em;
-    font-family: "Josefin Sans", sans-serif;
     text-align: right;
     background-color: #a9b7ac;
     padding-left: 5%;
